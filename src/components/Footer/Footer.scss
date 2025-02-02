@@ -1,0 +1,43 @@
+@use '../../App.scss';
+
+.footer {
+    padding: 50px 0px;
+    background: #212121;
+
+    &__general {
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+    }
+
+    &__iconList {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    &__links{
+        color: #FFFFFF;
+        font-size: 24px;
+    }
+
+    &__text{
+        width: 100%;
+        color: #ffffffb7;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .footer{
+        &__general{
+            grid-template-columns: 100%;
+        }
+        &__text{
+            display: none;
+        }
+        &__iconList{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

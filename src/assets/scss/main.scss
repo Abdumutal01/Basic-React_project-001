@@ -1,0 +1,19 @@
+@import 'fonts';
+@import 'star';
+@import 'body';
+@import 'container';
+
+
+*::after,
+*::before,
+* {
+    @include star();
+}
+
+body {
+    @include body();
+}
+
+.container {
+    @include container();
+}

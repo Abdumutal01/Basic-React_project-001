@@ -1,0 +1,6 @@
+@mixin body() {
+    display: flex;
+    flex-direction: column;
+    font-family: "Work Sans", serif;
+    min-height: 100vh;
+}

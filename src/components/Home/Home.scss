@@ -1,0 +1,35 @@
+@use '../../App.scss';
+
+.home {
+    width: 100%;
+    position: relative;
+
+    .hero,
+    .general {
+        position: absolute;
+        z-index: 999;
+    }
+
+    .hero {
+        top: 0;
+        left: 25%;
+        text-align: center;
+    }
+
+    .general {
+        bottom: 40px;
+        left: 8%;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .home {
+        .hero {
+            left: 10%;
+        }
+        .general {
+            bottom: 40px;
+            left: 5%;
+        }
+    }
+}
