@@ -10,7 +10,7 @@ import './Slider.scss';
 
 // import required modules
 import { Pagination, Autoplay } from 'swiper/modules';
-import HomeBoxes from '../HomeBoxes/HomeBoxes';
+
 
 // import slider-images 
 import sliderImg1 from '../../../assets/images/slider-img-test1.jpg'
@@ -18,6 +18,7 @@ import sliderImg2 from '../../../assets/images/slider-img-test2.jpg'
 import sliderImg3 from '../../../assets/images/slider-img-test3.jpg'
 import sliderImg4 from '../../../assets/images/slider-img-test4.jpg'
 import sliderImg5 from '../../../assets/images/slider-img-test5.jpg'
+
 
 
 export default function Slider() {
@@ -46,6 +47,7 @@ export default function Slider() {
     ]
     return (
         <>
+     
             <Swiper
                 spaceBetween={30}
                 pagination={{
